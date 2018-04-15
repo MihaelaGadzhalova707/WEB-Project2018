@@ -7,9 +7,11 @@
   <meta name="keywords" content="website keywords, website keywords" />
   <meta http-equiv="content-type" content="text/html; charset=windows-1252" />
   <link rel="stylesheet" type="text/css" href="style/style.css" title="style" />
+  <!--<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">-->
 </head>
 
 <body>
+
   <div id="main">
     <div id="header">
       <div id="logo">
@@ -82,6 +84,28 @@
 					<p id="size"> <span id="color-span"><b><i>Most importantly, only select a guitar you know is fully inspected and adjusted for easy playability, accuracy in
 					tuning, intonation and tone production. </i></b></span>
 					<h4 style="padding-bottom: 1px; padding-top: 1px"><b>1. Strings </b></h4>
+				<div class="w3-content w3-section" style="max-width:500px">
+					<img class="mySlides" src="style/crew.png" style="width:100%">
+					<img class="mySlides" src="style/crew1.png" style="width:100%">
+					<img class="mySlides" src="style/crew2.png" style="width:100%">
+				</div>
+
+				<script>
+					var myIndex = 0;
+					carousel();
+
+					function carousel() {
+						var i;
+						var x = document.getElementsByClassName("mySlides");
+						for (i = 0; i < x.length; i++) {
+							x[i].style.display = "none";  
+						}
+						myIndex++;
+						if (myIndex > x.length) {myIndex = 1}    
+						x[myIndex-1].style.display = "block";  
+						setTimeout(carousel, 2000); // Change image every 2 seconds
+					}
+				</script>
 					<p id="size">
 					You have two options with acoustic guitars: <u>nylon and steel strings</u>. The first option is less abrasive to the fingers, and produce a more mellow, chill
 					sound (which makes it easier on the neighbor's ears, too). Very John Williams. Steel strings on the other hand, have a more solid tune that sounds just

@@ -292,3 +292,41 @@ a:hover {
   width: 134px; 
   padding: 4px; 
   font: 100% arial, sans-serif;}
+  
+  
+  
+.one {
+	padding: 10px 0 0 0;
+	width: 300px;
+	height:300px;
+}
+
+
+.views-field-title {
+	margin: 0;
+	padding: 0;
+	background: url("../images/title_bg.png") repeat scroll 0 0 transparent;
+	bottom: 0;
+	color: #FFFFFF;
+	cursor: pointer;
+	display: block;
+	font-size: 15px;
+	height: 32px;
+	left: 0;
+	line-height: 31px;
+	padding-left: 13px;
+	position: absolute;
+	width: 207px;
+	z-index: 100;
+	text-align: left;
+	overflow: hidden
+}
+.field-content .views-field-field-model-value {
+	overflow: hidden;
+	display: block;
+	width: 180px;
+	height: 25px;
+	text-align: left
+}
+
+.mySlides {display:none;}
