@@ -69,18 +69,69 @@
 			</div>
 			
 			<div class="left">
-				<div class="one">
-					 <ul>
+				<div class="first">
+				<img id="myImg" src="style/cloud.png" alt="Electric guitars, Jackson SLATHX 3-7 7-String" height="360px" width="260px">
+					<a href="Jackson.html" > 
+						<div class="transparent_text">
+							<div class="type">Jackson SLATHX 3-7 7-String</div>
+						</div>
+					</a>
+						
+					<div id="myModal" class="modal">
+						<span class="close">&times;</span>
+						<img class="modal-content" id="img01">
+						<div id="caption"></div>
+					</div>
 
-						<li><div class="views-field views-field-title"><span class="field-content"><a href="style/ne.png" hreflang="bg">Kremona M15E Electroacoustic Folk Guitar</a></span></div><div class="views-field views-field-field-mainpicture"><div class="field-content">  <a href="/bg/node/8060"><img src="/sites/default/files/styles/list/public/Kremona%20M15E%20Electroacoustic%20Folk%20Guitar%201.jpg?itok=yCqQg8bX" width="207" height="160" alt="" typeof="foaf:Image" />
+					<script>
+					// Get the modal
+						var modal = document.getElementById('myModal');
+						var img = document.getElementById('myImg');
+						var modalImg = document.getElementById("img01");
+						var captionText = document.getElementById("caption");
+						img.onclick = function(){
+							modal.style.display = "block";
+							modalImg.src = this.src;
+							captionText.innerHTML = this.alt;
+						}
+						var span = document.getElementsByClassName("close")[0];
 
-				</a>
-</div></div></li>
-          <li><div class="views-field views-field-title"><span class="field-content"><a href="/bg/node/8052" hreflang="bg">Acoustic Guitar </a></span></div><div class="views-field views-field-field-mainpicture"><div class="field-content">  <a href="/bg/node/8052"><img src="/sites/default/files/styles/list/public/Acoustic%20Guitar%20Orpheus%20Valley%201.jpg?itok=iMe8CdN1" width="207" height="160" alt="" typeof="foaf:Image" />
+						span.onclick = function() { 
+							modal.style.display = "none";
+						}
+					</script>
+				</div>
+				<div class="second">
+					<img id="myImg2" src="style/cloud.png" alt="Electric guitars, Oscar Schmidt OE20 BK" class="instruments" height="360px" width="260px">
+					<a href="Jackson.html" > 
+						<div class="transparent_text">
+							<div class="type">Oscar Schmidt OE20 BK</div>
+						</div>
+					</a>
+						
+					<div id="myModal" class="modal">
+						<span class="close">&times;</span>
+						<img class="modal-content" id="img01">
+						<div id="caption"></div>
+					</div>
 
-</a>
-</div></div></li>
-</ul>
+					<script>
+					// Get the modal
+						var modal = document.getElementById('myModal');
+						var img = document.getElementById('myImg2');
+						var modalImg = document.getElementById("img01");
+						var captionText = document.getElementById("caption");
+						img.onclick = function(){
+							modal.style.display = "block";
+							modalImg.src = this.src;
+							captionText.innerHTML = this.alt;
+						}
+						var span = document.getElementsByClassName("close")[0];
+
+						span.onclick = function() { 
+							modal.style.display = "none";
+						}
+					</script>
 				</div>
 			</div>
 		</div>
