@@ -7,7 +7,7 @@ html
 
 body
 { font: normal .80em 'trebuchet ms', arial, sans-serif;
-  background: 	#F0F8FF /*url(cloud.png) repeat*/;
+ # background: 	#F0F8FF url(cloud.png) repeat;
   color: #777;}
   
 #header
@@ -56,7 +56,7 @@ ol li
 
 #main, #logo, #menubar, #site_content, #footer
 { margin-left: auto; 
-  margin-right: auto;}
+  margin-right: auto; }
 
 
 #logo
@@ -93,7 +93,7 @@ ol li
 { width: 900px;
   height: 72px;
   padding: 0;
-  background: #936c6c;} 
+  background:  #800000;} 
 
 ul#menu, ul#menu li
 { float: left;
@@ -118,7 +118,7 @@ ul#menu li a
 
 ul#menu li a:hover, ul#menu li.selected a, ul#menu li.selected a:hover
 { color: #FFF;
-  background: #A52A2A;
+  background:  #cc0000;
 }
   
 
@@ -127,7 +127,7 @@ ul#menu li a:hover, ul#menu li.selected a, ul#menu li.selected a:hover
   overflow: hidden;
   margin: 0 auto 0 auto;
   padding: 20px 24px 20px 37px;
-  background: #B8B8B8
+  background:  #595959
 } 
 
 #content
@@ -401,11 +401,14 @@ a:hover {
 .char {
 	color: black;
 	font-size: 20px;
+	padding-top: 20px;
 	
 }
 
 .first-word {
-	color: 	#191970;
+	color: #002e4d;
+	font-weight: bold;
+	
 }
 
 .first-picture {
