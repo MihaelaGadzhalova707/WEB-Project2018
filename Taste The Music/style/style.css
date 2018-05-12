@@ -7,24 +7,30 @@ html
 
 body
 { font: normal .80em 'trebuchet ms', arial, sans-serif;
- # background: 	#F0F8FF url(cloud.png) repeat;
-  color: #777;}
+  #background-image: url(leftfalme.png) repeat;
+  #color: #777;
+  background: 	#000000}
   
 #header
 { background: #1D1D1D url(leftfalme.png) repeat;
-  height: 240px;}
+  background-size: 960px 600px;
+  height: 240px;
+  width: 900px;
+  margin-left: auto; 
+  margin-right: auto;
+  }
 
 p
 { padding: 0 0 20px 0;
   line-height: 1.7em;
-  color: #43423F;}
+  color: black;}
 
 img
 { border: 0;}
 
 h1, h2, h3, h4, h5, h6 
 { font: normal 175% 'century gothic', arial, sans-serif;
-  color: #43423F;
+  color: 	#000000 ;
   margin: 0 0 15px 0;
   padding: 15px 0 5px 0;}
 
@@ -120,6 +126,7 @@ ul#menu li a:hover, ul#menu li.selected a, ul#menu li.selected a:hover
 { color: #FFF;
   background:  #cc0000;
 }
+
   
 
 #site_content
@@ -127,7 +134,8 @@ ul#menu li a:hover, ul#menu li.selected a, ul#menu li.selected a:hover
   overflow: hidden;
   margin: 0 auto 0 auto;
   padding: 20px 24px 20px 37px;
-  background:  #595959
+  #background: #F5F5F5;
+  background: #F8F8F8;
 } 
 
 #content
@@ -156,10 +164,10 @@ ul#menu li a:hover, ul#menu li.selected a, ul#menu li.selected a:hover
   margin-right: 20px;
   float: left;
   position: relative;
-  background-color: black
+  background-color: #800000;;
 }
 .vertical-menu ul li {
-  border-bottom: 1px solid #404345;
+  border-bottom: 1px solid #C0C0C0;
   padding-left: 0;
   background: none;
   font-size: 13px
@@ -213,20 +221,33 @@ vertical-menu li {
 }
 
 a{
-  color: #be8229;
+  color: black;
   text-decoration: none
+}
 
-}
+
 a:hover {
-  color: #f0a83e;
+  color: blue;
   text-decoration: none
 }
+
+.menu.side li a{
+	color: white;
+	text-decoration: none;
+}
+
+.menu.side li a:hover {
+	color: black;
+	text-decoration: none;
+	font-weight: bold;
+}
+
 .left {
 	flex: 1;
 	width: 600px;
 	float:right;
 	max-width: 1000px;
-	padding-top: 15px;
+	padding-top: 12px;
 }
 
 #size {
@@ -239,7 +260,7 @@ a:hover {
     overflow: hidden;
   margin: 0 auto 0 auto;
   padding: 20px 24px 20px 37px;
-  background: #B8B8B8
+  background: white;
 }
 
 #content-text {
@@ -260,7 +281,8 @@ a:hover {
 { float: right;
   width: 190px;
   padding: 0 15px 20px 15px;
-  border-style:outset;}
+  border-style:outset;
+  border-color: #800000;}
 
 
 .sidebar ul
@@ -365,7 +387,7 @@ a:hover {
 .type {
     display:block;
     background:#000;
-    background:rgba(0, 0, 0, 0.6);
+    background:  #1a1a1a;
     color:#FFF;
     padding:20px 5px;
 	text-align: center;
@@ -390,25 +412,32 @@ a:hover {
 
 .characteristic {
 	flex: 1;
-	width: 250px;
+	width: 260px;
 	float:right;
 	height: 500px;
 	max-width: 1000px;
 	display: inline-block;	
-	padding-top: 20px;
+	padding-top: 0px;
 }
 
 .char {
 	color: black;
-	font-size: 20px;
-	padding-top: 20px;
+	font-size: 15px;
+	padding-top: 10px;
+
+	line-height: 2.3;
 	
 }
 
+.title {
+	font-size: 35px;
+	padding-bottom:10px;
+}
+
 .first-word {
-	color: #002e4d;
+	color: black;
 	font-weight: bold;
-	
+	text-decoration: italic;
 }
 
 .first-picture {
