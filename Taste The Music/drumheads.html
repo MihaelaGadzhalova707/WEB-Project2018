@@ -23,8 +23,8 @@
         <ul id="menu">
           <!-- put class="selected" in the li tag for the selected page - to highlight which page you're on -->
           <li><a href="about.html">About</a></li>
-          <li class="selected"><a href="guitars.html">Guitars</a></li>
-          <li><a href="drums.html">Drums</a></li>
+          <li><a href="guitars.html">Guitars</a></li>
+          <li class="selected"><a href="drums.html">Drums</a></li>
           <li><a href="keyboards.html">Keyboards</a></li>
           <li><a href="contact.html">Contact Us</a></li>
         </ul>
@@ -43,19 +43,19 @@
 						<nav role="navigation" aria-labelledby="block-produkti-menu" id="block-produkti">
 							<ul class="menu side">
 								<li class="menu-item">
-									<a href="promotions.html" data-drupal-link-system-path="promotion">Promotions</a>
+									<a href="acousticdrums.html"  data-drupal-link-system-path="promotion">Acoustic drums</a>
 								</li>
 								<li class="menu-item">
-									<a href="electric.html" data-drupal-link-system-path="electric_guitars">Electric guitars</a>
+									<a href="bassdrums.html"  data-drupal-link-system-path="bass_guitars">Bass drums</a>
 								</li>
 								<li class="menu-item">
-									<a href="acoustic.html" data-drupal-link-system-path="acoustic_guitars">Acoustic guitars</a>
+									<a href="cymbals.html"  data-drupal-link-system-path="electric_guitars">Cymbals</a>
 								</li>
 								<li class="menu-item">
-									<a href="bass.html" data-drupal-link-system-path="bass_guitars"><b><font color="FFCC00">Bass guitars</font></b></a>
+									<a href="marching.html" data-drupal-link-system-path="acoustic_guitars">Marching</a>
 								</li>
 								<li class="menu-item">
-									<a href="connoisseurs.html" data-drupal-link-system-path="conn">For connoisseurs</a>
+									<a href="drumheads.html"  data-drupal-link-system-path="conn"><b><font color="FFCC00">Drum Heads</font></b></a>
 								</li>
 							</ul>
 						</nav>
@@ -66,20 +66,20 @@
 			</div>
 			
 			<div class="left">
-				<div class="first">
-				<img id="myImg" src="style/ray.png" alt="Bass guitars, Billy Ray P-Bass Guitar" height="360px" width="260px" onclick="document.getElementById('myModal').style.display='none'">
-					<a href="RayBassGuitar.html" > 
-						<div class="transparent_text">
-							<div class="type">Billy Ray P-Bass Guitar</div>
+				<div class="first-horizont">
+				<img id="myImg" src="style/evans.png" alt="Drum heads, Evans MX5" height="400px" width="500px">
+					<a href="EvansDrumHeads.html" > 
+						<div class="transparent_text-horizont">
+							<div class="type">Evans MX5</div>
 						</div>
 					</a>
 						
-				
 					<div id="myModal" class="modal">
 						<span class="close">&times;</span>
 						<img class="modal-content" id="img01">
 						<div id="caption"></div>
 					</div>
+
 					<script>
 					// Get the modal
 						var modal = document.getElementById('myModal');
@@ -98,39 +98,8 @@
 						}
 					</script>
 				</div>
-				
-				<div class="second">
-					<img id="myImg2" src="style/dean.png" alt="Bass guitars, DEAN EABC 5 String Bass" class="instruments" height="360px" width="260px">
-					<a href="DeanBassGuitar.html" > 
-						<div class="transparent_text">
-							<div class="type">DEAN EABC 5 String Bass</div>
-						</div>
-					</a>
-						
-					<div id="myModal" class="modal">
-						<span class="close">&times;</span>
-						<img class="modal-content" id="img01">
-						<div id="caption"></div>
-					</div>
-
-					<script>
-					// Get the modal
-						var modal = document.getElementById('myModal');
-						var img = document.getElementById('myImg2');
-						var modalImg = document.getElementById("img01");
-						var captionText = document.getElementById("caption");
-						img.onclick = function(){
-							modal.style.display = "block";
-							modalImg.src = this.src;
-							captionText.innerHTML = this.alt;
-						}
-						var span = document.getElementsByClassName("close")[0];
-
-						span.onclick = function() { 
-							modal.style.display = "none";
-						}
-					</script>
-				</div>
+			
+		
 			</div>
 		</div>
 	

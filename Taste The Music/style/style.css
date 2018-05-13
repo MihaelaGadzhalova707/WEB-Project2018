@@ -367,6 +367,18 @@ a:hover {
   
 }
 
+.first-horizont {
+  flex: 1;
+  width: 500px;
+  #float:right;
+  height: 400px;
+  max-width: 1000px;
+  display: inline-block;
+  #background: #1D1D1D url(first.png) repeat
+  position:relative;
+  
+}
+
 .second {
 	flex: 1;
 	width: 280px;
@@ -378,10 +390,19 @@ a:hover {
 
 .transparent_text {
 	position: absolute;
-    width: 260px;
+  width: 260px;
 	height: 380px
-    transform: translate(-50%, -50%);
-	cursor: not-allowed;
+  transform: translate(-50%, -50%);
+	#cursor: not-allowed;
+}
+.transparent_text-horizont {
+  position: absolute;
+  width: 500px;
+  height: 400px
+  transform: translate(-50%, -50%);
+ # cursor: not-allowed;
+  margin: auto;
+    
 }
 
 .type {
@@ -410,6 +431,16 @@ a:hover {
 	padding-top: 20px;
 }
 
+.pictures-table {
+	flex: 1;
+	width: 500px;
+	height: 400px;
+	max-width: 1000px;
+	display: inline-block;
+	position:relative;
+	padding-top: 20px;
+}
+
 .characteristic {
 	flex: 1;
 	width: 260px;
@@ -418,6 +449,42 @@ a:hover {
 	max-width: 1000px;
 	display: inline-block;	
 	padding-top: 0px;
+}
+
+.characteristic-table {
+	max-width: 1000px;
+	display: inline-block;	
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.features {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 500px;
+}
+
+.checked {
+    color: orange;
+}
+.features td, .features th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.features tr:nth-child(even) { 
+	background-color: #f2f2f2;
+}
+
+.features tr:hover { 
+	background-color: #ddd;
+}
+
+.features th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color:  #006400;
+    color: white;
 }
 
 .char {
@@ -442,7 +509,7 @@ a:hover {
 
 .first-picture {
 	flex: 1;
-	width: 300px;
+	width: 500px;
 	height: 400px;
 	max-width: 1000px;
 	display: inline-block;
