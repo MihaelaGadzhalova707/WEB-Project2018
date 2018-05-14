@@ -1,0 +1,138 @@
+<!DOCTYPE HTML>
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<head>
+  <title>Taste The Music</title>
+  <meta name="description" content="website description" />
+  <meta name="keywords" content="website keywords, website keywords" />
+  <meta http-equiv="content-type" content="text/html; charset=windows-1252" />
+  <link rel="stylesheet" type="text/css" href="style/style.css" title="style" />
+  <!--<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">-->
+</head>
+
+<body>
+
+  <div id="main">
+    <div id="header">
+      <div id="logo">
+        <div id="logo_text">
+          <!-- class="logo_colour", allows you to change the colour of the text -->
+          <h1><a href="index.html">Taste The <span class="logo_colour">Music</span></a></h1>
+          <h2>No.Boundary.For.Your.Soul</h2>
+        </div>
+      </div>
+      <div id="menubar">
+        <ul id="menu">
+          <!-- put class="selected" in the li tag for the selected page - to highlight which page you're on -->
+          <li><a href="about.html">About</a></li>
+          <li><a href="guitars.html">Guitars</a></li>
+          <li><a href="drums.html">Drums</a></li>
+          <li class="selected"><a href="keyboards.html">Keyboards</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+      </div>
+    </div>
+	
+    <div id="site_content">
+      
+		<div id="content">
+        <!-- insert the page content here -->
+			<div class="container">
+
+				<div class="vertical-menu">
+				
+					<div class="edit-item" >
+						<nav role="navigation" aria-labelledby="block-produkti-menu" id="block-produkti">
+							<ul class="menu side">
+								<li class="menu-item">
+									<a href="hybridpianos.html"  data-drupal-link-system-path="promotion">Hybrid Pianos</a>
+								</li>
+								<li class="menu-item">
+									<a href="grandpianos.html"  data-drupal-link-system-path="bass_guitars">Grand Pianos</a>
+								</li>
+								<li class="menu-item">
+									<a href="digitalpianos.html"  data-drupal-link-system-path="conn">Digital Pianos</a>
+								</li>
+								<li class="menu-item">
+									<a href="synthesizers.html"  data-drupal-link-system-path="electric_guitars">Synthesizers</a>
+								</li>
+								<li class="menu-item">
+									<a href="accordions.html" data-drupal-link-system-path="acoustic_guitars"><b><font color="FFCC00">Accordions</font></b></a>
+								</li>
+							</ul>
+						</nav>
+
+					</div>
+				</div>
+				
+			</div>
+			
+			<div class="left">
+				<div class="title">Hohner Amica Forte III 72 silent Key</div>
+				<div class="pictures-table">
+					<div class="first-picture">
+						<div class="w3-content w3-section" style="max-width:500px">
+							<img class="mySlides" src="style/amica.png" alt="Accordions, Hohner Amica Forte III 72 silent Key" height="400px" width="500px">
+							<img class="mySlides" src="style/amica2.png" alt="Accordions, Hohner Amica Forte III 72 silent Key" height="400px" width="500px">
+							<img class="mySlides" src="style/amica3.png" alt="Accordions, Hohner Amica Forte III 72 silent Key" height="400px" width="500px">
+							<img class="mySlides" src="style/amica4.png" alt="Accordions, Hohner Amica Forte III 72 silent Key" height="400px" width="500px">
+							<img class="mySlides" src="style/amica5.png" alt="Accordions, Hohner Amica Forte III 72 silent Key" height="400px" width="500px">
+							</div>
+					
+						<script>
+							var myIndex = 0;
+							carousel();
+
+							function carousel() {
+						var i;
+						var x = document.getElementsByClassName("mySlides");
+						for (i = 0; i < x.length; i++) {
+							x[i].style.display = "none";  
+						}
+						myIndex++;
+						if (myIndex > x.length) {myIndex = 1}    
+						x[myIndex-1].style.display = "block";  
+						setTimeout(carousel, 2000); // Change image every 2 seconds
+					}
+					</script>
+				</div>
+				</div>
+			
+				<div class="characteristic-table">
+					<table class="features" align="center">
+						<tr>
+							<th>Features</th>
+							<th></th>
+						</tr>
+						<tr>
+							<td>Manufacturer</td>
+							<td>Hohner</td>
+						</tr>
+						<tr>
+							<td>Weight (kg)</td>
+							<td>7.4</td>
+						</tr>
+						<tr>
+							<td>Color</td>
+							<td>Schwarz</td>
+						</tr>
+						<tr>
+							<td>Price</td>
+							<td>$1889.92</td>
+						</tr>
+
+					</table>
+				</div>
+				
+			</div>
+		</div>
+	
+    </div>
+
+	
+    <div id="footer">
+      Copyright &copy; Taste The Music | Don't Worry | Be happy | Enjoy Music
+    </div>
+  </div>
+</body>
+</html>
