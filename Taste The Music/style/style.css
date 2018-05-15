@@ -271,11 +271,31 @@ a:hover {
   font-size:15px;
 }
 
+#content-text-contact {
+	text-align: left;
+  width: 820px;
+  padding: 0;
+  text-align:justify;
+  font-size:15px;
+   text-align: center;
+}
+
+.contact-text{
+	margin: 0 auto 0 auto;
+	width: 350px;
+	text-align: 15px;
+}
+.addition {
+	text-align: center;
+}
+.different {
+	color: #cc0000;
+	font-weight: bold;
+	text-decoration: underline;
+}
 #color-span {
 	color: #b30000;
 }
-
-
 
 .sidebar
 { float: right;
@@ -515,6 +535,7 @@ a:hover {
 	display: inline-block;
 	position:relative;
 }
+
 #myImg, #myImg2 {
     border-radius: 5px;
     cursor: pointer;
