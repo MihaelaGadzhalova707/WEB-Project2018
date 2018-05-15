@@ -289,6 +289,62 @@ a:hover {
  
 }
 
+.content-text-links {
+	text-align: left;
+  width: 820px;
+  padding: 0;
+  text-align:justify;
+  font-size:15px;
+   text-align: center;
+}
+
+.links {
+	margin: 0 auto 0 auto;
+	width: 700px;
+	
+	text-align: left;
+  padding: 0;
+  text-align:justify;
+  font-size:15px;
+  padding-top: 10px;
+}
+
+.second-title {
+	font-weight: bold;
+	margin: 0 auto 0 auto;
+    width: 700px;
+	padding-top: 30px;
+}
+
+.more {
+	width: 650px;
+	margin: 0 auto 0 auto;
+	font-size: 15px;
+	padding-top: 10px;
+}
+
+.first-word-drums {
+	font-weight: bold;
+	text-decoration: underline;
+	color: #800000;
+}
+
+.img-things {
+	width: 50%;
+	height: 50%;
+	padding: 0px 0 10px 0;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.about {
+	width: 100%;
+	height: 100%;
+	padding: 0px 0 10px 0;
+	align: middle;
+}
+
 .contact-text{
 	margin: 0 auto 0 auto;
 	width: 350px;
@@ -301,6 +357,11 @@ a:hover {
 	color: #cc0000;
 	font-weight: bold;
 	text-decoration: underline;
+}
+
+.different-drums {
+	color: #000000;
+	font-weight: bold;
 }
 
 .contactus {
